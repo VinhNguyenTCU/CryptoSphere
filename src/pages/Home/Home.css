@@ -44,5 +44,35 @@
 }
 
 .hero form button{
-    
+    border: none;
+    background: #3c3c3c;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.hero form button:hover{
+    background: #616171;
+}
+
+.crypto-table{
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+    border-radius: 15px 15px 0 0;
+}
+
+.table-layout{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.market-cap{
+    text-align: right;
 }
