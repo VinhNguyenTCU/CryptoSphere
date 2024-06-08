@@ -32,9 +32,16 @@ const Home = () => {
                     <p className="market-cap">Market cap</p>
                 </div>
                 {
-                    displayCoin.slice(0, 10).map((item, index) => (
+                    displayCoin.slice(0,10).map((item, index) => (
                         <div className="table-layout" key={index}>
                             <p>{item.market_cap_rank}</p>
+                            <div>
+                                <img src={item.image} alt="image"/>
+                                <p>{item.name + " - " + item.symbol}</p>
+                            </div>
+                            <p>{currency.symbol} {item.current_price.toLocaleString()}</p>
+                            <p className={item.price_change_percentage_24h > 0 ? "green" : "red"}>{Math.floor(item.price_change_percentage_24h * 100)} % </p>
+                            <p className="market-cap">{currency.symbol} {item.market_cap.toLocaleString()}</p>
                         </div>
                     ))
                 }

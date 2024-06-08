@@ -62,3 +62,25 @@
 .nav-bar button img{
     width: 13px;
 }
+
+@media (max-width: 900px){
+    .nav-bar{
+        padding: 20px 8%;
+    }
+
+    .nav-bar button{
+        gap: 8px;
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px){
+    .nav-bar{
+        padding: 20px 5%;
+    }
+
+    .nav-bar ul{
+        display: none;
+    }
+}

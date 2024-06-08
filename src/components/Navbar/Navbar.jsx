@@ -15,18 +15,18 @@ const Navbar = () => {
                 break;
             }
 
-            case "euro": {
-                setCurrency({name: "euro", symbol: "€"});
+            case "eur": {
+                setCurrency({name: "eur", symbol: "€"});
                 break;
             }
 
-            case "yen": {
-                setCurrency({name: "yen", symbol: "¥"});
+            case "jpy": {
+                setCurrency({name: "jpy", symbol: "¥"});
                 break;
             }
             
-            case "sterling":{
-                setCurrency({name: "sterling", symbol: "£"});
+            case "gbp":{
+                setCurrency({name: "gbp", symbol: "£"});
                 break;
             }
 
@@ -50,9 +50,9 @@ const Navbar = () => {
             <div className="nav-right">
                 <select onChange={currencyHandler}>
                     <option value="usd">USD</option>
-                    <option value="euro">EUR</option>
-                    <option value="yen">JPY</option>
-                    <option value="sterling">GBP</option>
+                    <option value="eur">EUR</option>
+                    <option value="jpy">JPY</option>
+                    <option value="gbp">GBP</option>
                 </select>
                 <button>Sign Up <img src={arrow} alt="arrow_icon"/></button>
             </div>
