@@ -20,3 +20,37 @@
         transform: rotate(360deg);
     }
 }
+
+.coin{
+    padding: 0 20px;
+}
+
+.coin-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+
+.coin-name img{
+    max-width: 100px;
+}
+
+.coin-name p b{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.coin-info{
+    display: flex;
+    margin: 50px auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.coin-info ul{
+    list-style: none;
+    text-align: center;
+}
