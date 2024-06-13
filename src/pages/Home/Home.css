@@ -17,7 +17,7 @@
     font-size: max(4vw, 36px);
 }
 
-.hero p{
+.welcome-message{
     width: 75%;
     color: #e3e3e3;
     line-height: 1.5;

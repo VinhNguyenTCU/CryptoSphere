@@ -1,0 +1,21 @@
+.container h2{
+    color: #f0b90b;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+}

@@ -31,8 +31,8 @@ const Home = () => {
     return (
         <div className="home">
             <div className="hero">
-                <h1>Largest <br/> Crypto Marketplace</h1>
-                <p>Welcome to the world's largest crypto currency marketplace.
+                <h1>Welcome to<br /> <h2>CryptoSphere!</h2></h1>
+                <p className="welcome-message">Welcome to the world's largest crypto currency marketplace.
                     Sign up to explore more about cryptos.
                 </p>
                 <form onSubmit={searchHandler}>
@@ -62,7 +62,7 @@ const Home = () => {
                                 <p>{item.name + " - " + item.symbol}</p>
                             </div>
                             <p>{currency.symbol} {item.current_price.toLocaleString()}</p>
-                            <p className={item.price_change_percentage_24h > 0 ? "green" : "red"}>{(item.price_change_percentage_24h * 100).toFixed(2)} % </p>
+                            <p className={item.price_change_percentage_24h > 0 ? "green" : "red"}>{(item.price_change_percentage_24h / 100 * 100).toFixed(2)} % </p>
                             <p className="market-cap">{currency.symbol} {item.market_cap.toLocaleString()}</p>
                         </Link>
                     ))
