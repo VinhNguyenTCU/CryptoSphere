@@ -9,7 +9,7 @@ const About = () => {
                 <div>
                     <h2>OUR VISION</h2>
                     <h1>Cryptocurrency in Every Wallet</h1>
-                    <img src={dollar} className="logo" alt="logo picture" />
+                    <img src={dollar} className="logo1" alt="logo picture" />
                 </div>
                 <div>
                     <h2>OUR MISSION</h2>

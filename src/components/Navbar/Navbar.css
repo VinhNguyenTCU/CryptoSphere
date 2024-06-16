@@ -50,7 +50,22 @@
     color: white;
 }
 
-.nav-bar button{
+.nav-bar .sign-up{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #393939;
+    background: #f0b90b;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.nav-bar .sign-in{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -65,13 +80,15 @@
     transition: 300ms;
 }
 
-.nav-bar button:hover{
-    background-color: #393939;
-    color: white;
+
+.nav-bar .sign-up:hover{
+    background-color: #efd069;
+    color: black;
 }
 
-.nav-bar button img{
-    width: 13px;
+.nav-bar .sign-in:hover{
+    background-color: #c3c1c1;
+    color: black;
 }
 
 @media (max-width: 900px){

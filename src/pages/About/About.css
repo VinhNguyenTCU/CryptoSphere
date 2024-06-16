@@ -2,7 +2,7 @@
     color: #f0b90b;
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding: 3rem 1rem;
 }
 
 .container h1{
@@ -11,9 +11,10 @@
     text-align:justify;
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
-.logo{
+.logo1{
     display: flex;
     width: 200px;
     height: 200px;
