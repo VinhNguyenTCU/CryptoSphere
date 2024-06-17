@@ -21,6 +21,12 @@
     width: 50%;
 }
 
+.form-detail p{
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
 .form-control{
     border: none;
     padding: 0.5rem 12px;
@@ -51,5 +57,9 @@
     .form{
         border: none;
         width: 100%;
+    }
+
+    .form-detail p{
+        font-size: 12px;
     }
 }
