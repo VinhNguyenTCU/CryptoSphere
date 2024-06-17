@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .form{
     border: solid 1px white;
     margin: 2rem auto;
@@ -16,8 +22,8 @@
     display: flex;
     margin: auto;
     flex-direction: column;
-    padding: 2rem 1rem;
-    gap: 2rem;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
     width: 50%;
 }
 
@@ -40,6 +46,7 @@
     padding-bottom: 2rem;
 }
 
+
 .submit-button button{
     border: none;
     background-color: #f0b90b;
@@ -51,6 +58,37 @@
 
 .submit-button button:hover{
     background-color: #f4ce52;
+}
+
+#uidnote{
+    text-decoration: none;
+}
+
+.info-icon{
+    margin-right: 12px;
+    color: #f0b90b;
+}
+
+.hide{
+    display: none;
+}
+
+.valid{
+    display: inline-block;
+}
+
+.times{
+    color: #d33131;
+    padding-left: 12px;
+}
+
+.check{
+    color: #7ac70c;
+    padding-left: 12px;
+}
+
+.offscreen{
+    display: none;
 }
 
 @media (max-width: 500px) {
