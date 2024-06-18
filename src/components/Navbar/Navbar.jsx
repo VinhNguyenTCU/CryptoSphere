@@ -57,7 +57,7 @@ const Navbar = () => {
                     <option value="gbp">GBP</option>
                 </select>
                 <Link to={`/sign-up`}><button className="sign-up">Sign Up</button></Link>
-                <button className="sign-in">Sign In</button>
+                <Link to={`/sign-in`}><button className="sign-in">Sign In</button></Link>
             </div>
         </div>
     )
