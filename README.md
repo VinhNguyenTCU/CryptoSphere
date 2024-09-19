@@ -25,3 +25,6 @@ Since I have not depoyed this project yet, I'd encourage you to clone and rename
 
 By the way, thank you for visiting my project.
 
+![Homescreen](https://github.com/VinhNguyenTCU/CryptoSphere/blob/main/src/assets/homescreen.png)
+![Crypto Dash Board](https://github.com/VinhNguyenTCU/CryptoSphere/blob/main/src/assets/crypto.png)
+![Price Chart](https://github.com/VinhNguyenTCU/CryptoSphere/blob/main/src/assets/chart.png)
